@@ -1,0 +1,20 @@
+.FK {
+    background: rgba(240, 248, 255, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 10mm;
+    border-color: beige;
+    width: 8cm;
+    height: 5mm;
+    font-size: 4mm;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.FKB {
+    background: rgba(240, 248, 255, 0.2);
+    border-radius: 10mm;
+    border-color: beige;
+    width: 3cm;
+    height: 7mm;
+    font-size: 4mm;
+}

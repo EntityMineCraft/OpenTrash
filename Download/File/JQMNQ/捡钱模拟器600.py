@@ -1,6 +1,6 @@
 ﻿#The file by CI Studio™
-#作者：Entity 
-#成员：任之炼 
+#作者：Entity
+#成员：任之炼
 #答疑：FFS、Ninecloud、高木同学...
 #灵感来源于MMORPG的捡钱机制
 import random

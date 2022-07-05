@@ -1,6 +1,154 @@
 ﻿.bg1 {
-    background: #e2e2e2;
+    background:url(../image/birchbg.png);
     height: 720px;
     width: 1080px;
     font-family: sans-serif;
+}
+
+@keyframes circle1Path {
+    0% {
+        top: 40vh;
+        left: 40vw;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    50% {
+        top: 50vh;
+        left: 51vw;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    100% {
+        top: 40vh;
+        left: 40vw;
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+@keyframes circle2Path {
+    0% {
+        top: 40vh;
+        left: 45vw;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    50% {
+        top: 37vh;
+        left: -10vw;
+        width: 20vw;
+        height: 20vw;
+    }
+
+    100% {
+        top: 40vh;
+        left: 45vw;
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+@keyframes circle3Path {
+    0% {
+        top: 30vh;
+        left: 30vw;
+        width: 25vw;
+        height: 25vw;
+    }
+
+    50% {
+        top: 50vh;
+        left: 80vw;
+        width: 20vw;
+        height: 20vw;
+    }
+
+    100% {
+        top: 30vh;
+        left: 30vw;
+        width: 25vw;
+        height: 25vw;
+    }
+}
+
+@keyframes circle4Path {
+    0% {
+        top: 38vh;
+        left: 38vw;
+        width: 18vw;
+        height: 18vw;
+    }
+
+    50% {
+        top: -2vh;
+        left: 36vw;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    100% {
+        top: 38vh;
+        left: 38vw;
+        width: 18vw;
+        height: 18vw;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeCircleIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.circle1 {
+    position: absolute;
+    animation: circle1Path 10s infinite, fadeCircleIn 1332ms ease-out;
+    border-radius: 100vw;
+    background: radial-gradient(50% 50% at 50% 50%,
+            rgba(255, 0, 0, 0.5) 100%,
+            rgba(12, 119, 255, 0) 100%);
+    z-index: -1;
+}
+
+.circle2 {
+    position: absolute;
+    animation: circle2Path 8s infinite, fadeCircleIn 1332ms ease-out;
+    border-radius: 100vw;
+    background: radial-gradient(50% 50% at 50% 50%,
+            rgba(0, 255, 0, 0.5) 100%,
+            rgba(12, 119, 255, 0) 100%);
+    z-index: -1;
+}
+
+.circle3 {
+    position: absolute;
+    animation: circle3Path 16s infinite, fadeCircleIn 1332ms ease-out;
+    border-radius: 100vw;
+    background: radial-gradient(50% 50% at 50% 50%,
+            rgba(0, 0, 255, 0.5) 100%,
+            rgba(65, 56, 210, 0) 100%);
+    z-index: -1;
+}
+
+.circle4 {
+    position: absolute;
+    animation: circle4Path 10s infinite, fadeCircleIn 1332ms ease-out;
+    border-radius: 100vw;
+    background: radial-gradient(50% 50% at 50% 50%,
+            rgba(255, 255, 0, 0.5) 100%,
+            rgba(65, 56, 210, 0) 100%);
+    z-index: -1;
 }

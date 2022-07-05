@@ -36,3 +36,14 @@
 .link:hover {
   background: #06b050;
 }
+
+.logo {
+  background: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+}
+
+.logo:hover {
+  background: #ffff99;
+}
